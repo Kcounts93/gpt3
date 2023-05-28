@@ -1,5 +1,5 @@
 import React from 'react'
-import './article.css';
+import './article.css'
 
 const Article = () => {
   return (
@@ -7,4 +7,4 @@ const Article = () => {
   )
 }
 
-export default Article
+export default Article;

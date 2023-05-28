@@ -1,5 +1,5 @@
 import React from 'react'
-import './possibility.css';
+import './possibility.css'
 
 const Possibility = () => {
   return (
@@ -7,4 +7,4 @@ const Possibility = () => {
   )
 }
 
-export default Possibility
+export default Possibility;

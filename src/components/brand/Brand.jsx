@@ -1,5 +1,5 @@
 import React from 'react'
-import './brand.css';
+import './brand.css'
 
 const Brand = () => {
   return (
@@ -7,4 +7,4 @@ const Brand = () => {
   )
 }
 
-export default Brand
+export default Brand;

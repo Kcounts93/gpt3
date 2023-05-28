@@ -1,5 +1,5 @@
 import React from 'react'
-import './feature.css';
+import './feature.css'
 
 const Feature = () => {
   return (
@@ -7,4 +7,4 @@ const Feature = () => {
   )
 }
 
-export default Feature
+export default Feature;
