@@ -5,16 +5,16 @@ import './whatGPT.css';
 const WhatGPT3 = () => (
   <div className="gpt3__whatgpt3 section__margin" id="wgpt3">
     <div className="gpt3__whatgpt3-feature">
-      <Feature title-='What is GPT-3?' text='We so opinion friends me message as delight. Whole front do of plate heard oh ought. His defective nor convinced residence own. Connection has put impossible own apartments boisterous. At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by.' />
+      <Feature title="What is GPT-3" text="GPT-3, is a state-of-the-art language model developed by OpenAI. It stands for Generative Pre-trained Transformer and represents the third iteration of the GPT series. GPT-3 is a deep learning model that has been trained on a massive amount of text data from the internet, allowing it to generate human-like text based on given prompts." />
     </div>
     <div className="gpt3__whatgpt3-heading">
       <h1 className="gradient__text">The possibilities are beyond your imagination</h1>
       <p>Explore the Library</p>
     </div>
     <div className="gpt3__whatgpt3-container">
-      <Feature title="Chatbots" text="We so opinion friends me message as delight. Whole front do of plate heard oh ought. "/>
-      <Feature title="Knowledgebase" text="At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments b" />
-      <Feature title="Education" text="At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments b" />
+      <Feature title="Chatbots" text="ChatGPT-3 powers human-like chatbots capable of engaging in contextually relevant conversations, though occasional limitations in accuracy and reliability remain."/>
+      <Feature title="Knowledgebase" text="GPT-3 generates responses based on patterns and information it learned during training," />
+      <Feature title="Education" text="Can be utilized in education to provide personalized learning experiences, assist in answering student questions, offer explanations on various topics, generate educational content" />
     </div>
   </div>
 );
