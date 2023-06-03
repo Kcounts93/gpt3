@@ -12,7 +12,9 @@ const Possibility = () => {
         <h4>Request Early Access to Get Started</h4>
         <h1 className='gradient__text'>The possibilities are beyond your imagination</h1>
         <p>Developed by OpenAI, GPT-3 offers possibilities beyond imagination. It comprehends and generates human-like text, transforming industries like content creation, customer service, education, and healthcare. With its vast knowledge base, GPT-3 writes code, composes poetry, engages in lifelike conversations, and revolutionizes various fields, proving that its potential knows no bounds.</p>
-        <button type='button'>Request Early Access</button>
+        <button type='button'>
+          <a href="https://auth0.openai.com/u/signup">Request Early Access</a>
+        </button>
       </div>
     </div>
   )

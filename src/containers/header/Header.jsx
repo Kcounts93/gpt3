@@ -10,7 +10,9 @@ const Header = () => (
       <p>ChatGPT provides you with an exceptional platform to bring your ideas to life. Through intuitive and dynamic conversations, you can collaborate, brainstorm, and refine your concepts, tapping into the full potential of this cutting-edge AI.</p>
       <div className="gpt3__header-content__input">
         <input type="email" placeholder="Your Email Address" />
-        <button type="button">Get Started</button>
+        <button type="button">
+          <a href="https://auth0.openai.com/u/signup">Get Started</a>
+        </button>
       </div>
 
       <div className="gpt3__header-content__people">

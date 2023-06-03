@@ -33,7 +33,7 @@
 }
 
 .gpt3__navbar-links_container p, 
-.gpt3__navbar-sign p, 
+.gpt3__navbar-sign a, 
 .gpt3__navbar-menu_container p {
     color: #ffffff;
     font-family: var(--font-family);
@@ -91,7 +91,6 @@
 
 .gpt3__navbar-menu_container p {
     margin: 1rem 0;
-
 }
 
 .gpt3__navbar-menu_container-links-sign {

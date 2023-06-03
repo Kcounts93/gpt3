@@ -14,7 +14,7 @@ const Article = ({ imgURL, date, title }) => {
         <p>{date}</p>
         <h3>{title}</h3>
       </div>
-        <p>Read Full Article</p>
+        <a href='https://openai.com/blog'>Read Full Article</a>
       </div>
     </div>
   )

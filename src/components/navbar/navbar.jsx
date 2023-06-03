@@ -29,8 +29,8 @@ const Navbar = () => {
         </div>  
       </div>
       <div className='gpt3__navbar-sign'>
-        <p>Sign in</p>
-        <button type='button'>Sign up</button>
+      <a href="https://chat.openai.com/auth/login">Sign In</a>
+        <button type='button'> <a href="https://auth0.openai.com/u/signup">Sign Up</a></button>
       </div>
       <div className='gpt3__navbar-menu'>
       {toggleMenu
@@ -41,8 +41,10 @@ const Navbar = () => {
             <div className='gpt3__navbar-menu_container-links'>
               <Menu />
               <div className='gpt3__navbar-menu_container-links-sign'>
-                <p>Sign in</p>
-                <button type='button'>Sign up</button>
+              <a href="https://chat.openai.com/auth/login">Sign In</a>
+                <button type='button'>
+                  <a href="https://auth0.openai.com/u/signup">Sign Up</a>
+                </button>
               </div>
             </div>
           </div>
