@@ -8,14 +8,13 @@ const Footer = () => {
       <div className='gpt3__footer-heading'>
         <h1 className='gradient__text'>Do you want to step into the future before others?</h1>
       </div>
-      <div className='gpt__footer-btn'>
-        <p>Request Early Access</p>
+      <div className='gpt3__footer-btn'>
+        <a href="https://auth0.openai.com/u/signup">Request Early Access</a>
       </div>
-
       <div className='gpt3__footer-links'>
         <div className='gpt3__footer-links_logo'>
           <img src={gpt3Logo} alt='logo'/>
-          <p>3180 18th Street, San Francisco, CA 94110 All Rights Reserved </p>
+          <p>Unleashing the Power of Language: GPT-3, where imagination meets intelligence.</p>
         </div>
         <div className='gpt3__footer-links_div'>
           <h4>Products</h4>
@@ -38,6 +37,7 @@ const Footer = () => {
         </div>
       </div>
       <div className='gpt3__footer-copyright'>
+        <p>3180 18th Street San Francisco, CA 94110 All Rights Reserved </p>
         <p>© 2021 GPT-3. All rights reserved.</p>
       </div>
     </div>
