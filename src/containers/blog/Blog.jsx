@@ -15,7 +15,7 @@ const Blog = () => {
         </div>
         <div className='gpt3__blog-container_groupB'>
         <Article imgURL={blog02} date="May 29, 2023" title="Unleashing the Power of GPT-3: Exploring its Limitless Potential" />
-        <Article imgURL={blog03} date="May 16, 2023" title="From Conversations to Code: GPT-3's Journey in Empowering Developers" />
+        <Article imgURL={blog03} date="May 16, 2023" title="Conversations to Code: GPT-3's Journey in Empowering Developers" />
         <Article imgURL={blog04} date="May 1, 2023" title="GPT-3 in Healthcare: Transforming Patient Care and Medical Research" />
         <Article imgURL={blog05} date="April 22, 2023" title="Unveiling the Artistic Side of GPT-3: Poetry, Music, and Creativity at Its Best" />
         </div>
