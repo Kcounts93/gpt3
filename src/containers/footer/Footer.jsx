@@ -18,10 +18,27 @@ const Footer = () => {
           <p>3180 18th Street, San Francisco, CA 94110 All Rights Reserved </p>
         </div>
         <div className='gpt3__footer-links_div'>
-          <h4>Links</h4>
-          <p></p>
-          
+          <h4>Products</h4>
+          <a href="https://openai.com/product">Product</a>
+          <a href="https://openai.com/gpt-4">GPT-4</a>
+          <a href="https://openai.com/dall-e-2">DALL·E 2</a>
+          <a href="https://openai.com/pricing">Pricing</a>
         </div>
+        <div className='gpt3__footer-links_div'>
+          <h4>Research</h4>
+          <a href="https://openai.com/research/overview">Overview</a>
+          <a href="https://openai.com/research">Index</a>
+          <a href="https://openai.com/customer-stories">Customer Stories</a>
+        </div>
+        <div className='gpt3__footer-links_div'>
+          <h4>Company</h4>
+          <a href="https://openai.com/about">About</a>
+          <a href="https://openai.com/careers">Careers</a>
+          <a href="https://openai.com/blog">Blog</a>
+        </div>
+      </div>
+      <div className='gpt3__footer-copyright'>
+        <p>© 2021 GPT-3. All rights reserved.</p>
       </div>
     </div>
   )
